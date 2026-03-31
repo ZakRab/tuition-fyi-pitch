@@ -1,0 +1,24 @@
+@import "tailwindcss";
+
+:root {
+  --accent: #cc0000;
+  --text: #1a1a1a;
+  --muted: #6b7280;
+  --bg: #ffffff;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background: var(--bg);
+  color: var(--text);
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Hide scrollbar */
+::-webkit-scrollbar { display: none; }
+* { scrollbar-width: none; }
+
+/* Cursor auto-hide in presentation */
+.cursor-idle { cursor: none; }
