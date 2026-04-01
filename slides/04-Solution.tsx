@@ -1,7 +1,7 @@
 export default function Solution() {
   return (
     <div className="w-full max-w-4xl mx-auto px-16 text-center">
-      <h2 className="text-8xl font-black text-[#cc0000] mb-10">Tuition.fyi</h2>
+      <img src="/logo.png" alt="Tuition.fyi" className="h-24 mx-auto mb-10" />
 
       <p className="text-4xl text-gray-700 leading-relaxed mb-12">
         An open, crowdsourced database of what students actually pay for college.

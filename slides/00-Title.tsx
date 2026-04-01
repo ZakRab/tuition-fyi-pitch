@@ -1,9 +1,7 @@
 export default function Title() {
   return (
     <div className="w-full max-w-5xl mx-auto px-16 text-center">
-      <h1 className="text-9xl font-black text-[#cc0000] tracking-tight mb-8">
-        Tuition.fyi
-      </h1>
+      <img src="/logo.png" alt="Tuition.fyi" className="h-32 mx-auto mb-8" />
       <p className="text-4xl text-gray-600 mb-16">
         See what students actually pay for college.
       </p>

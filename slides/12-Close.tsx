@@ -9,7 +9,7 @@ export default function Close() {
         Tuition transparency is next.
       </p>
 
-      <h2 className="text-8xl font-black text-[#cc0000] mb-12">Tuition.fyi</h2>
+      <img src="/logo.png" alt="Tuition.fyi" className="h-24 mx-auto mb-12" />
 
       <div className="flex justify-center gap-20 mb-12">
         <div>
