@@ -2,7 +2,7 @@ export default function Solution() {
   return (
     <div className="w-full max-w-4xl mx-auto px-16 text-center">
       <div className="flex items-center justify-center gap-5 mb-10">
-        <img src="/logo.png" alt="Tuition.fyi" className="h-20" />
+        <img src="/logo.png" alt="Tuition.fyi" className="h-28" />
         <h2 className="text-8xl font-black text-[#cc0000]">Tuition.fyi</h2>
       </div>
 

@@ -10,7 +10,7 @@ export default function Close() {
       </p>
 
       <div className="flex items-center justify-center gap-5 mb-12">
-        <img src="/logo.png" alt="Tuition.fyi" className="h-20" />
+        <img src="/logo.png" alt="Tuition.fyi" className="h-28" />
         <h2 className="text-8xl font-black text-[#cc0000]">Tuition.fyi</h2>
       </div>
 
