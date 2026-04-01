@@ -1,7 +1,7 @@
 export default function AppendixPrivacy() {
   return (
     <div className="w-full max-w-5xl mx-auto px-16">
-      <p className="text-xl font-semibold text-gray-400 uppercase tracking-widest mb-4">
+      <p className="text-xl font-semibold text-gray-500 uppercase tracking-widest mb-4">
         Appendix
       </p>
       <h2 className="text-6xl font-bold mb-12">How we anonymize data</h2>

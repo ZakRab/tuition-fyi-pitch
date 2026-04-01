@@ -16,7 +16,7 @@ export default function Solution() {
         <li>Free to contribute. Paid to browse without contributing.</li>
       </ul>
 
-      <p className="text-2xl text-gray-400 mt-12">
+      <p className="text-2xl text-gray-500 mt-12">
         Glassdoor and Levels.fyi proved people share W-2s for salary data. Same model, applied to tuition.
       </p>
     </div>

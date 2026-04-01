@@ -7,15 +7,15 @@ export default function Pattern() {
       <div className="space-y-6 mb-12">
         <div className="border-l-4 border-[#cc0000] pl-6">
           <p className="text-2xl italic text-gray-700">&ldquo;You pay fees in USD, 5-6x my currency, before you know your scholarship.&rdquo;</p>
-          <p className="text-xl text-gray-400 mt-2">- Lucas, Brazil</p>
+          <p className="text-2xl text-gray-500 mt-2">- Lucas, Brazil</p>
         </div>
         <div className="border-l-4 border-[#cc0000] pl-6">
           <p className="text-2xl italic text-gray-700">&ldquo;I get random DMs from strangers asking how I did it. There&rsquo;s no one else to ask.&rdquo;</p>
-          <p className="text-xl text-gray-400 mt-2">- Firdaws, Tajikistan</p>
+          <p className="text-2xl text-gray-500 mt-2">- Firdaws, Tajikistan</p>
         </div>
         <div className="border-l-4 border-[#cc0000] pl-6">
           <p className="text-2xl italic text-gray-700">&ldquo;Finding contacts at different schools was nearly impossible.&rdquo;</p>
-          <p className="text-xl text-gray-400 mt-2">- Aman, India</p>
+          <p className="text-2xl text-gray-500 mt-2">- Aman, India</p>
         </div>
       </div>
 
