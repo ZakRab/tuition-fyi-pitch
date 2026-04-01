@@ -10,15 +10,16 @@ export default function Solution() {
         An open, crowdsourced database of what students actually pay for college.
       </p>
 
-      <ul className="text-3xl text-gray-500 space-y-4 text-left max-w-2xl mx-auto">
+      <ul className="text-3xl text-gray-500 space-y-4 text-left max-w-3xl mx-auto list-disc list-inside">
         <li>Verified. Not self-reported.</li>
         <li>Anonymized. No one sees your name.</li>
-        <li>Free to contribute. Paid to browse without contributing.</li>
+        <li>Free for contributors. Paid to browse otherwise.</li>
       </ul>
 
-      <p className="text-2xl text-gray-500 mt-12">
+      {/* This is already stated in the conclusion */}
+      {/* <p className="text-2xl text-gray-500 mt-12">
         Glassdoor and Levels.fyi proved people share W-2s for salary data. Same model, applied to tuition.
-      </p>
+      </p> */}
     </div>
   );
 }
