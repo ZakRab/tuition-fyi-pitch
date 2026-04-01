@@ -6,7 +6,7 @@ export default function Team() {
       <div className="grid grid-cols-2 gap-16">
         <div>
           <div className="w-28 h-28 rounded-full overflow-hidden mb-6">
-            <img src="/zakms.jpg" alt="Zak Rab" className="w-full h-full object-cover" />
+            <img src="/zak.jpg" alt="Zak Rab" className="w-full h-full object-cover" />
           </div>
           <h3 className="text-3xl font-bold">Zak Rab</h3>
           <p className="text-[#cc0000] text-xl font-semibold mb-5">Co-founder</p>
