@@ -10,13 +10,12 @@ export default function Team() {
           </div>
           <h3 className="text-3xl font-bold">Zak Rab</h3>
           <p className="text-[#cc0000] text-xl font-semibold mb-5">Founder</p>
-          <ul className="space-y-3 text-xl text-gray-600">
-            <li>Raikes School &middot; CS and Business</li>
-            <li>SWE Intern @ Microsoft (AI/ML, Azure)</li>
-            <li>SWE Intern @ Hudl &middot; SWE Intern @ MDBee.ai</li>
-            <li>Lead AI Engineer @ FindU (college matching)</li>
-            <li>Founded GroupSell (App Store + Google Play)</li>
-            <li><strong>5 startups in college</strong> &middot; International background</li>
+          <ul className="space-y-3 text-2xl text-gray-600">
+            <li>Raikes School, CS and Business</li>
+            <li>SWE Intern @ Microsoft</li>
+            <li>SWE Intern @ Hudl</li>
+            <li>5 startups in college</li>
+            <li>Led all 10 customer interviews</li>
           </ul>
         </div>
 
@@ -26,19 +25,18 @@ export default function Team() {
           </div>
           <h3 className="text-3xl font-bold">Joey Shea</h3>
           <p className="text-[#cc0000] text-xl font-semibold mb-5">Co-founder</p>
-          <ul className="space-y-3 text-xl text-gray-600">
-            <li>Raikes School &middot; CS, Data Science, Math, Business</li>
-            <li>3.98 GPA &middot; Chancellor&rsquo;s Scholar</li>
-            <li>SWE Intern @ Hudl (React, TypeScript, C#)</li>
-            <li>Software Intern @ Virtual Incision</li>
-            <li>Incoming @ Garmin &middot; Full-stack + data science</li>
+          <ul className="space-y-3 text-2xl text-gray-600">
+            <li>Raikes School, CS + Data Science</li>
+            <li>3.98 GPA, Chancellor&rsquo;s Scholar</li>
+            <li>SWE Intern @ Hudl</li>
+            <li>Incoming @ Garmin</li>
+            <li>Full-stack + data science</li>
           </ul>
         </div>
       </div>
 
-      <p className="mt-10 text-2xl text-gray-600 text-center leading-relaxed">
-        We came to this because our friends are international students.
-        We watched them struggle through this process and realized nobody was fixing it.
+      <p className="mt-10 text-2xl text-gray-500 text-center">
+        Our friends are international students. We watched them struggle through this.
       </p>
     </div>
   );

@@ -1,19 +1,20 @@
 export default function Solution() {
   return (
     <div className="w-full max-w-4xl mx-auto px-16 text-center">
-      <p className="text-3xl text-gray-500 mb-8">So we&rsquo;re building</p>
-
-      <h2 className="text-8xl font-black text-[#cc0000] mb-8">Tuition.fyi</h2>
+      <h2 className="text-8xl font-black text-[#cc0000] mb-10">Tuition.fyi</h2>
 
       <p className="text-4xl text-gray-700 leading-relaxed mb-12">
-        An open, crowdsourced database of what students
-        actually pay for college. Verified. Anonymized. Free to contribute.
+        An open, crowdsourced database of what students actually pay for college.
       </p>
 
-      <p className="text-3xl text-gray-500 leading-relaxed">
-        Glassdoor and Levels.fyi proved people will share sensitive financial data
-        when they get value back. Levels.fyi users submit W-2s to verify their salary.
-        We do the same for tuition, using the I-20 form and financial aid letters.
+      <ul className="text-3xl text-gray-500 space-y-4 text-left max-w-2xl mx-auto">
+        <li>Verified. Not self-reported.</li>
+        <li>Anonymized. No one sees your name.</li>
+        <li>Free to contribute. Paid to browse without contributing.</li>
+      </ul>
+
+      <p className="text-2xl text-gray-400 mt-12">
+        Glassdoor and Levels.fyi proved people share W-2s for salary data. Same model, applied to tuition.
       </p>
     </div>
   );
