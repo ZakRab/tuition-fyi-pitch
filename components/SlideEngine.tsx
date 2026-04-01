@@ -3,6 +3,9 @@
 import { useState, useEffect, useCallback, ReactNode } from "react";
 import { AnimatePresence, motion } from "framer-motion";
 
+const BASE_W = 1280;
+const BASE_H = 720;
+
 interface SlideEngineProps {
   slides: ReactNode[];
 }
@@ -10,7 +13,17 @@ interface SlideEngineProps {
 export default function SlideEngine({ slides }: SlideEngineProps) {
   const [current, setCurrent] = useState(0);
   const [direction, setDirection] = useState(0);
+  const [scale, setScale] = useState(1);
   const total = slides.length;
+
+  useEffect(() => {
+    const updateScale = () => {
+      setScale(Math.min(window.innerWidth / BASE_W, window.innerHeight / BASE_H));
+    };
+    updateScale();
+    window.addEventListener("resize", updateScale);
+    return () => window.removeEventListener("resize", updateScale);
+  }, []);
 
   const go = useCallback(
     (delta: number) => {
@@ -79,19 +92,32 @@ export default function SlideEngine({ slides }: SlideEngineProps) {
         onClick={() => go(1)}
       />
 
-      <AnimatePresence mode="wait" custom={direction}>
-        <motion.div
-          key={current}
-          custom={direction}
-          initial={{ opacity: 0, x: direction >= 0 ? 60 : -60 }}
-          animate={{ opacity: 1, x: 0 }}
-          exit={{ opacity: 0, x: direction >= 0 ? -60 : 60 }}
-          transition={{ duration: 0.25, ease: "easeInOut" }}
-          className="absolute inset-0 flex items-center justify-center"
-        >
-          {slides[current]}
-        </motion.div>
-      </AnimatePresence>
+      {/* Fixed-size stage scaled to viewport */}
+      <div
+        style={{
+          position: "absolute",
+          width: BASE_W,
+          height: BASE_H,
+          top: "50%",
+          left: "50%",
+          transform: `translate(-50%, -50%) scale(${scale})`,
+          transformOrigin: "center center",
+        }}
+      >
+        <AnimatePresence mode="wait" custom={direction}>
+          <motion.div
+            key={current}
+            custom={direction}
+            initial={{ opacity: 0, x: direction >= 0 ? 60 : -60 }}
+            animate={{ opacity: 1, x: 0 }}
+            exit={{ opacity: 0, x: direction >= 0 ? -60 : 60 }}
+            transition={{ duration: 0.25, ease: "easeInOut" }}
+            style={{ position: "absolute", inset: 0, display: "flex", alignItems: "center", justifyContent: "center" }}
+          >
+            {slides[current]}
+          </motion.div>
+        </AnimatePresence>
+      </div>
 
       {/* Progress bar */}
       <div className="absolute bottom-0 left-0 right-0 h-1 bg-gray-100 z-30">

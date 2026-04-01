@@ -5,7 +5,7 @@ export default function KaiStory() {
         <div className="shrink-0 flex flex-col items-center">
           <h2 className="text-4xl font-bold mb-4">This is Peng.</h2>
           <div className="w-64 h-64 rounded-full bg-gray-200 overflow-hidden">
-            <img src="/Peng.webp" alt="Peng" className="w-full h-full object-cover" />
+            <img src="/peng.png" alt="Peng" className="w-full h-full object-cover" />
           </div>
         </div>
         <div className="pt-2">
