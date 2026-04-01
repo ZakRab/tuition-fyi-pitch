@@ -11,7 +11,7 @@ export default function Team() {
           <h3 className="text-3xl font-bold">Zak Rab</h3>
           <p className="text-[#cc0000] text-xl font-semibold mb-5">Co-founder</p>
           <ul className="space-y-3 text-2xl text-gray-600">
-            <li>Raikes School, CS and Business</li>
+            <li>Raikes School, CS & Business</li>
             <li>SWE Intern @ Microsoft, Hudl</li>
             <li>5 startups in college</li>
             <li>Led all 10 customer interviews</li>
@@ -25,10 +25,10 @@ export default function Team() {
           <h3 className="text-3xl font-bold">Joey Shea</h3>
           <p className="text-[#cc0000] text-xl font-semibold mb-5">Co-founder</p>
           <ul className="space-y-3 text-2xl text-gray-600">
-            <li>Raikes School, CS + Data Science</li>
+            <li>Raikes School, CS & Data Science</li>
             <li>SWE Intern @ Hudl, Virtual Incision</li>
             <li>Incoming @ Garmin</li>
-            <li>Full-stack + data science</li>
+            <li>Full-stack, Data Science, UI/UX</li>
           </ul>
         </div>
       </div>
