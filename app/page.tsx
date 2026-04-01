@@ -2,35 +2,31 @@
 
 import SlideEngine from "@/components/SlideEngine";
 import Title from "@/slides/00-Title";
-import Hook from "@/slides/01-Hook";
-import Problem from "@/slides/02-Problem";
-import PainPoints from "@/slides/03-PainPoints";
+import KaiStory from "@/slides/01-KaiStory";
+import Pattern from "@/slides/02-Pattern";
+import WhyThisExists from "@/slides/03-WhyThisExists";
 import Solution from "@/slides/04-Solution";
-import Verification from "@/slides/05-Verification";
-import BusinessModel from "@/slides/11-BusinessModel";
-import Team from "@/slides/06-Team";
-import Traction from "@/slides/07-Traction";
-import WhyNow from "@/slides/08-WhyNow";
-import Competition from "@/slides/09-Competition";
-import Risks from "@/slides/10-Risks";
-import WhyStartupStudio from "@/slides/12-WhyStartupStudio";
-import Roadmap from "@/slides/13-Roadmap";
-import Close from "@/slides/14-Close";
+import HowItWorks from "@/slides/05-HowItWorks";
+import BusinessModel from "@/slides/06-BusinessModel";
+import WhyNow from "@/slides/07-WhyNow";
+import Competition from "@/slides/08-Competition";
+import Team from "@/slides/09-Team";
+import StartupStudio from "@/slides/10-StartupStudio";
+import Roadmap from "@/slides/11-Roadmap";
+import Close from "@/slides/12-Close";
 
 const slides = [
   <Title key="title" />,
-  <Hook key="hook" />,
-  <Problem key="problem" />,
-  <PainPoints key="pain" />,
+  <KaiStory key="kai" />,
+  <Pattern key="pattern" />,
+  <WhyThisExists key="why" />,
   <Solution key="solution" />,
-  <Verification key="verification" />,
+  <HowItWorks key="how" />,
   <BusinessModel key="biz" />,
-  <Team key="team" />,
-  <Traction key="traction" />,
   <WhyNow key="whynow" />,
   <Competition key="competition" />,
-  <Risks key="risks" />,
-  <WhyStartupStudio key="whystartupstudio" />,
+  <Team key="team" />,
+  <StartupStudio key="studio" />,
   <Roadmap key="roadmap" />,
   <Close key="close" />,
 ];

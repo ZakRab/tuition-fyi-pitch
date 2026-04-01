@@ -5,7 +5,7 @@ import "./globals.css";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Openroll — Pitch Deck",
+  title: "Tuition.fyi — Pitch Deck",
   description: "Levels.fyi for international student costs",
 };
 
