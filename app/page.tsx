@@ -14,6 +14,7 @@ import Team from "@/slides/09-Team";
 import StartupStudio from "@/slides/10-StartupStudio";
 import Roadmap from "@/slides/11-Roadmap";
 import Close from "@/slides/12-Close";
+import AppendixPrivacy from "@/slides/13-Appendix-Privacy";
 
 const slides = [
   <Title key="title" />,
@@ -29,6 +30,7 @@ const slides = [
   <StartupStudio key="studio" />,
   <Roadmap key="roadmap" />,
   <Close key="close" />,
+  <AppendixPrivacy key="appendix-privacy" />,
 ];
 
 export default function Home() {
