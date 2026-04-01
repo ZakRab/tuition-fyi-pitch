@@ -5,8 +5,8 @@ export default function Team() {
 
       <div className="grid grid-cols-2 gap-16">
         <div>
-          <div className="w-28 h-28 rounded-full bg-gradient-to-br from-[#cc0000] to-[#ff4444] flex items-center justify-center text-white text-4xl font-bold mb-6">
-            ZR
+          <div className="w-28 h-28 rounded-full overflow-hidden mb-6">
+            <img src="/zakms.jpg" alt="Zak Rab" className="w-full h-full object-cover" />
           </div>
           <h3 className="text-3xl font-bold">Zak Rab</h3>
           <p className="text-[#cc0000] text-xl font-semibold mb-5">Founder</p>
@@ -20,8 +20,8 @@ export default function Team() {
         </div>
 
         <div>
-          <div className="w-28 h-28 rounded-full bg-gradient-to-br from-[#1a1a1a] to-[#444444] flex items-center justify-center text-white text-4xl font-bold mb-6">
-            JS
+          <div className="w-28 h-28 rounded-full overflow-hidden mb-6">
+            <img src="/joey.jpeg" alt="Joey Shea" className="w-full h-full object-cover" />
           </div>
           <h3 className="text-3xl font-bold">Joey Shea</h3>
           <p className="text-[#cc0000] text-xl font-semibold mb-5">Co-founder</p>
