@@ -3,7 +3,7 @@ export default function KaiStory() {
     <div className="w-full max-w-4xl mx-auto px-16">
       <div className="flex items-start gap-12">
         <div className="w-40 h-40 rounded-full bg-gray-200 overflow-hidden shrink-0">
-          <img src="/peng.jpg" alt="Peng" className="w-full h-full object-cover" />
+          <img src="/Peng.webp" alt="Peng" className="w-full h-full object-cover" />
         </div>
         <div>
           <p className="text-3xl text-gray-500 mb-6">This is Peng.</p>

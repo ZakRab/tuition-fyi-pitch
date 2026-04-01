@@ -9,7 +9,7 @@ export default function Team() {
             <img src="/zakms.jpg" alt="Zak Rab" className="w-full h-full object-cover" />
           </div>
           <h3 className="text-3xl font-bold">Zak Rab</h3>
-          <p className="text-[#cc0000] text-xl font-semibold mb-5">Founder</p>
+          <p className="text-[#cc0000] text-xl font-semibold mb-5">Co-founder</p>
           <ul className="space-y-3 text-2xl text-gray-600">
             <li>Raikes School, CS and Business</li>
             <li>SWE Intern @ Microsoft</li>

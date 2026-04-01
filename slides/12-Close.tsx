@@ -14,7 +14,7 @@ export default function Close() {
       <div className="flex justify-center gap-20 mb-12">
         <div>
           <p className="text-3xl font-bold">Zak Rab</p>
-          <p className="text-2xl text-gray-500">Founder</p>
+          <p className="text-2xl text-gray-500">Co-founder</p>
         </div>
         <div>
           <p className="text-3xl font-bold">Joey Shea</p>
