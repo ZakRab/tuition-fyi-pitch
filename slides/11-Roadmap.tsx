@@ -14,7 +14,7 @@ export default function Roadmap() {
           </ul>
         </div>
         <div>
-          <p className="text-[#cc0000] font-bold text-xl uppercase tracking-wider mb-2">May 2026</p>
+          <p className="text-[#cc0000] font-bold text-xl uppercase tracking-wider mb-2">Summer 2026</p>
           <h3 className="text-3xl font-bold mb-6">Grow</h3>
           <ul className="space-y-3 text-2xl text-gray-600">
             <li>1,000 verified submissions</li>
@@ -27,7 +27,6 @@ export default function Roadmap() {
           <h3 className="text-3xl font-bold mb-6">Scale</h3>
           <ul className="space-y-3 text-2xl text-gray-600">
             <li>National expansion</li>
-            <li>Add domestic students</li>
             <li>Launch paid access tier</li>
           </ul>
         </div>

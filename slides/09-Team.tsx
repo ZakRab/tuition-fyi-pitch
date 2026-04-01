@@ -26,8 +26,9 @@ export default function Team() {
           <p className="text-[#cc0000] text-xl font-semibold mb-5">Co-founder</p>
           <ul className="space-y-3 text-2xl text-gray-600">
             <li>Raikes School, CS + Data Science</li>
-            <li>3.98 GPA, Chancellor&rsquo;s Scholarship</li>
-            <li>SWE Intern @ Hudl, Incoming @ Garmin</li>
+            <li>Chancellor&rsquo;s Scholarship</li>
+            <li>SWE Intern @ Hudl, Virtual Incision</li>
+            <li>Incoming @ Garmin</li>
             <li>Full-stack + data science</li>
           </ul>
         </div>
