@@ -23,7 +23,7 @@ export default function WhyNow() {
         <div>
           <h3 className="text-4xl font-bold text-[#cc0000] mb-3">High international enrollment</h3>
           <ul className="text-3xl text-gray-600 space-y-2">
-            <li>Despite stricter foreign policy, there's 1.1M students studying in the U.S.</li>
+            <li>There's 1.1M students studying in the U.S.</li>
             <li>Evergreen market that has consistently increased over time</li>
           </ul>
         </div>
