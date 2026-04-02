@@ -12,6 +12,7 @@ import HowItWorks from "@/slides/05-HowItWorks";
 import BusinessModel from "@/slides/06-BusinessModel";
 import WhyNow from "@/slides/07-WhyNow";
 import OriginsChart from "@/slides/07b-OriginsChart";
+import MarketSize from "@/slides/07c-MarketSize";
 import Competition from "@/slides/08-Competition";
 import Team from "@/slides/09-Team";
 import StartupStudio from "@/slides/10-StartupStudio";
@@ -31,6 +32,7 @@ const slides = [
   <BusinessModel key="biz" />,
   <WhyNow key="whynow" />,
   <OriginsChart key="origins-chart" />,
+  <MarketSize key="market-size" />,
   <Competition key="competition" />,
   <Team key="team" />,
   <StartupStudio key="studio" />,

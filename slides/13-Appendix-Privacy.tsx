@@ -10,8 +10,8 @@ export default function AppendixPrivacy() {
         <div className="flex items-start gap-6">
           <div className="w-14 h-14 rounded-full bg-[#cc0000] text-white flex items-center justify-center font-bold text-2xl shrink-0 mt-1">1</div>
           <div>
-            <p className="text-4xl font-bold">Document never leaves the device</p>
-            <p className="text-3xl text-gray-500 mt-1">AI extracts financial fields client-side in the browser. Original is never uploaded.</p>
+            <p className="text-4xl font-bold">Only numbers ever leave the device</p>
+            <p className="text-3xl text-gray-500 mt-1">AI extracts financial fields client-side. Original document is never uploaded — no name, no student ID, no SEVIS number, no address. Ever.</p>
           </div>
         </div>
 
@@ -26,8 +26,8 @@ export default function AppendixPrivacy() {
         <div className="flex items-start gap-6">
           <div className="w-14 h-14 rounded-full bg-[#cc0000] text-white flex items-center justify-center font-bold text-2xl shrink-0 mt-1">3</div>
           <div>
-            <p className="text-4xl font-bold">Only numbers hit our server</p>
-            <p className="text-3xl text-gray-500 mt-1">No name, no student ID, no SEVIS number, no address. Ever.</p>
+            <p className="text-4xl font-bold">.edu email required to submit</p>
+            <p className="text-3xl text-gray-500 mt-1">Only verified current students can contribute data. No .edu, no submission.</p>
           </div>
         </div>
 

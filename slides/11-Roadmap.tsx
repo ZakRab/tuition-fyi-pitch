@@ -26,7 +26,7 @@ export default function Roadmap() {
           <p className="text-[#cc0000] font-bold text-2xl uppercase tracking-wider mb-2">Fall 2026</p>
           <h3 className="text-4xl font-bold mb-6">Scale</h3>
           <ul className="space-y-3 text-3xl text-gray-600 list-disc list-outside pl-6">
-            <li>Improve platform and add new features</li>
+            <li>Potential partnerships</li>
             <li>National expansion</li>
             <li>Launch paid access tier</li>
           </ul>

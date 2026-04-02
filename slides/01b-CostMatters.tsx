@@ -4,10 +4,11 @@ export default function CostMatters() {
       <h1
         style={{
           fontSize: "9rem",
-          fontWeight: 800,
+          fontWeight: 400,
           lineHeight: 1.05,
           letterSpacing: "-0.03em",
           textAlign: "center",
+          textDecoration: "underline",
           color: "var(--text)",
         }}
       >
