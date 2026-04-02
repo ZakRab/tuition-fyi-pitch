@@ -7,8 +7,8 @@ export default function WhyNow() {
         <div>
           <h3 className="text-4xl font-bold text-[#cc0000] mb-3">The technology didn&rsquo;t exist before.</h3>
           <ul className="text-3xl text-gray-600 space-y-2">
-            <li>TuitionFit launched in 2018 for domestic students. Couldn&rsquo;t verify at scale.</li>
             <li>AI now makes document parsing and verification cheap and reliable.</li>
+            <li>We can build fast and begin marketing/outreach earlier than ever.</li>
           </ul>
         </div>
 
@@ -16,15 +16,15 @@ export default function WhyNow() {
           <h3 className="text-4xl font-bold text-[#cc0000] mb-3">The transparency wave is here.</h3>
           <ul className="text-3xl text-gray-600 space-y-2">
             <li>Glassdoor did it for reviews. Levels.fyi did it for salaries with W-2s.</li>
-            <li>Tuition is next. The question is who builds it first.</li>
+            <li>Tuition is next, and no one has built it yet.</li>
           </ul>
         </div>
 
         <div>
-          <h3 className="text-4xl font-bold text-[#cc0000] mb-3">Record international enrollment.</h3>
+          <h3 className="text-4xl font-bold text-[#cc0000] mb-3">High international enrollment.</h3>
           <ul className="text-3xl text-gray-600 space-y-2">
-            <li>1.1M students. $40B+ annually. All-time high.</li>
-            <li>Demand for cost transparency has never been greater.</li>
+            <li>Despite stricter foreign policy, there's 1.1M students coming to the U.S.</li>
+            <li>Evergreen market that has consistiently increased over time.</li>
           </ul>
         </div>
       </div>

@@ -7,7 +7,7 @@ export default function Competition() {
         {[
           { name: "TuitionFit", gap: "Domestic only" },
           { name: "Niche", gap: "Domestic, no verification" },
-          { name: "Agencies ($100-$4K)", gap: "Earn commissions from schools" },
+          { name: "Agencies ($100-$4K)", gap: "Expensive, can be biased" },
           { name: "WhatsApp / Reddit", gap: "Unstructured, unverified" },
         ].map((c, i) => (
           <div key={i} className="flex items-center justify-between py-4 border-b border-gray-100">

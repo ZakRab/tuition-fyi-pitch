@@ -1,17 +1,17 @@
 export default function BusinessModel() {
   return (
-    <div className="w-full max-w-5xl mx-auto px-16">
+    <div className="w-full max-w-6xl mx-auto px-8">
       <h2 className="text-6xl font-bold mb-12">Who pays</h2>
 
       <div className="grid grid-cols-3 gap-8">
         <div className="bg-gray-50 rounded-2xl p-8">
           <p className="text-2xl text-gray-500 uppercase font-semibold tracking-wider mb-4">Current Students</p>
           <h3 className="text-3xl font-bold mb-4">Contribute data</h3>
-          <ul className="text-2xl text-gray-600 space-y-2">
-            <li>Upload financial documents</li>
-            <li>Get full database access</li>
-            <li>Get tokens to share with others</li>
-            <li>Help your community back home</li>
+          <ul className="text-2xl text-gray-600 space-y-2 list-disc pl-5">
+            <li className="pl-1">Upload financial documents</li>
+            <li className="pl-1">Get their personal ROI report</li>
+            <li className="pl-1">Get tokens to share with others</li>
+            <li className="pl-1">Help your community back home</li>
           </ul>
           <p className="mt-6 text-3xl font-semibold text-gray-500">Free</p>
         </div>
@@ -19,10 +19,10 @@ export default function BusinessModel() {
         <div className="bg-gray-50 rounded-2xl p-8">
           <p className="text-2xl text-gray-500 uppercase font-semibold tracking-wider mb-4">Token Recipients</p>
           <h3 className="text-3xl font-bold mb-4">Referred access</h3>
-          <ul className="text-2xl text-gray-600 space-y-2">
-            <li>Sibling, neighbor, family friend</li>
-            <li>Use token for full access</li>
-            <li>No data required</li>
+          <ul className="text-2xl text-gray-600 space-y-2 list-disc pl-5">
+            <li className="pl-1">Sibling, neighbor, family friend</li>
+            <li className="pl-1">Use token for full access</li>
+            <li className="pl-1">No data required</li>
           </ul>
           <p className="mt-6 text-3xl font-semibold text-gray-500">Free</p>
         </div>
@@ -30,10 +30,10 @@ export default function BusinessModel() {
         <div className="bg-red-50 rounded-2xl p-8 border-2 border-[#cc0000]/20">
           <p className="text-2xl text-[#cc0000] uppercase font-semibold tracking-wider mb-4">Prospective Families</p>
           <h3 className="text-3xl font-bold mb-4">Pay for access</h3>
-          <ul className="text-2xl text-gray-600 space-y-2">
-            <li>No data to contribute yet</li>
-            <li>Pay ~$50 for full database</li>
-            <li>Fraction of agency cost</li>
+          <ul className="text-2xl text-gray-600 space-y-2 list-disc pl-5">
+            <li className="pl-1">No data to contribute yet</li>
+            <li className="pl-1">Pay flat fee ~$50 for full access</li>
+            <li className="pl-1">Fraction of agency cost</li>
           </ul>
           <p className="mt-6 text-3xl font-bold text-[#cc0000]">Revenue</p>
         </div>

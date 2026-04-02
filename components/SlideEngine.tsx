@@ -19,7 +19,7 @@ export default function SlideEngine({ slides, noClickNav = [] }: SlideEngineProp
 
   useEffect(() => {
     const updateScale = () => {
-      setScale(Math.min(window.innerWidth / BASE_W, window.innerHeight / BASE_H));
+      setScale(Math.min(window.innerWidth / BASE_W, window.innerHeight / BASE_H) * 0.9);
     };
     updateScale();
     window.addEventListener("resize", updateScale);
