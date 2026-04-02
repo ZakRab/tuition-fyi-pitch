@@ -8,13 +8,14 @@ const BASE_H = 720;
 
 interface SlideEngineProps {
   slides: ReactNode[];
+  noClickNav?: number[];
 }
 
-export default function SlideEngine({ slides }: SlideEngineProps) {
+export default function SlideEngine({ slides, noClickNav = [] }: SlideEngineProps) {
+  const total = slides.length;
   const [current, setCurrent] = useState(0);
   const [direction, setDirection] = useState(0);
   const [scale, setScale] = useState(1);
-  const total = slides.length;
 
   useEffect(() => {
     const updateScale = () => {
@@ -83,14 +84,18 @@ export default function SlideEngine({ slides }: SlideEngineProps) {
   return (
     <div className="relative w-screen h-screen overflow-hidden bg-white">
       {/* Click navigation zones */}
-      <div
-        className="absolute left-0 top-0 w-1/4 h-full z-20 cursor-pointer"
-        onClick={() => go(-1)}
-      />
-      <div
-        className="absolute right-0 top-0 w-1/4 h-full z-20 cursor-pointer"
-        onClick={() => go(1)}
-      />
+      {!noClickNav.includes(current) && (
+        <>
+          <div
+            className="absolute left-0 top-0 w-1/4 h-full z-20 cursor-pointer"
+            onClick={() => go(-1)}
+          />
+          <div
+            className="absolute right-0 top-0 w-1/4 h-full z-20 cursor-pointer"
+            onClick={() => go(1)}
+          />
+        </>
+      )}
 
       {/* Fixed-size stage scaled to viewport */}
       <div
@@ -127,9 +132,29 @@ export default function SlideEngine({ slides }: SlideEngineProps) {
         />
       </div>
 
-      {/* Slide number */}
-      <div className="absolute bottom-3 right-6 text-xs text-gray-400 z-30 select-none">
-        {current + 1} / {total}
+      {/* Slide number + nav controls (hover zone: bottom-right corner) */}
+      <div className="absolute bottom-0 right-0 w-56 h-20 z-30 group">
+        <div className="absolute bottom-4 right-6 flex items-center gap-1 opacity-0 group-hover:opacity-100 transition-opacity duration-200 select-none">
+          <button
+            onClick={() => go(-1)}
+            disabled={current === 0}
+            suppressHydrationWarning
+            className="flex items-center justify-center w-8 h-8 rounded text-gray-400 hover:text-gray-700 hover:bg-gray-100 disabled:opacity-30 transition-colors text-xl leading-none"
+            aria-label="Previous slide"
+          >
+            ‹
+          </button>
+          <span suppressHydrationWarning className="text-sm text-gray-400 px-1">{current + 1} / {total}</span>
+          <button
+            onClick={() => go(1)}
+            disabled={current === total - 1}
+            suppressHydrationWarning
+            className="flex items-center justify-center w-8 h-8 rounded text-gray-400 hover:text-gray-700 hover:bg-gray-100 disabled:opacity-30 transition-colors text-xl leading-none"
+            aria-label="Next slide"
+          >
+            ›
+          </button>
+        </div>
       </div>
     </div>
   );
