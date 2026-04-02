@@ -10,7 +10,8 @@ export default function BusinessModel() {
           <ul className="text-xl text-gray-600 space-y-2">
             <li>Submit I-20 + aid letter</li>
             <li>Get full database access</li>
-            <li>Get a token to pass on</li>
+            <li>Get tokens to share with others</li>
+            <li>Help your community back home</li>
           </ul>
           <p className="mt-6 text-2xl font-semibold text-gray-500">Free</p>
         </div>

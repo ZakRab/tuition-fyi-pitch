@@ -9,14 +9,17 @@ import WhyThisExists from "@/slides/03-WhyThisExists";
 import Solution from "@/slides/04-Solution";
 import HowItWorks from "@/slides/05-HowItWorks";
 import BusinessModel from "@/slides/06-BusinessModel";
-import WhyNow from "@/slides/07-WhyNow";
-import Competition from "@/slides/08-Competition";
-import Team from "@/slides/09-Team";
-import StartupStudio from "@/slides/10-StartupStudio";
-import Roadmap from "@/slides/11-Roadmap";
-import Close from "@/slides/12-Close";
-import AppendixPrivacy from "@/slides/13-Appendix-Privacy";
-import AppendixSite from "@/slides/14-Appendix-Site";
+import MarketSize from "@/slides/07-MarketSize";
+import WhyNow from "@/slides/08-WhyNow";
+import GoToMarket from "@/slides/09-GoToMarket";
+import Universities from "@/slides/10-Universities";
+import Competition from "@/slides/11-Competition";
+import Team from "@/slides/12-Team";
+import StartupStudio from "@/slides/13-StartupStudio";
+import Roadmap from "@/slides/14-Roadmap";
+import Close from "@/slides/15-Close";
+import AppendixPrivacy from "@/slides/16-Appendix-Privacy";
+import AppendixSite from "@/slides/17-Appendix-Site";
 
 const slides = [
   <Title key="title" />,
@@ -26,7 +29,10 @@ const slides = [
   <Solution key="solution" />,
   <HowItWorks key="how" />,
   <BusinessModel key="biz" />,
+  <MarketSize key="market" />,
   <WhyNow key="whynow" />,
+  <GoToMarket key="gtm" />,
+  <Universities key="universities" />,
   <Competition key="competition" />,
   <Team key="team" />,
   <StartupStudio key="studio" />,
@@ -37,5 +43,5 @@ const slides = [
 ];
 
 export default function Home() {
-  return <SlideEngine slides={slides} noClickNav={[14]} />;
+  return <SlideEngine slides={slides} noClickNav={[17]} />;
 }

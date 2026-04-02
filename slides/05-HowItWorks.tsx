@@ -5,7 +5,7 @@ export default function HowItWorks() {
 
       <div className="space-y-8">
         {[
-          { n: "1", title: "Student submits cost data", sub: "Verified with I-20 form + financial aid letter. Anonymized." },
+          { n: "1", title: "Student submits cost data", sub: "Verified via .edu email + official I-20 and aid documents. Anonymized." },
           { n: "2", title: "They unlock the full database", sub: "Filter by country, university, program. See real numbers." },
           { n: "3", title: "They get a token to pass forward", sub: "Sibling, neighbor, family friend back home." },
           { n: "4", title: "That person sees the data, then contributes", sub: "Every user brings the next one." },

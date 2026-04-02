@@ -8,8 +8,8 @@ export default function Roadmap() {
           <p className="text-[#cc0000] font-bold text-xl uppercase tracking-wider mb-2">April 2026</p>
           <h3 className="text-3xl font-bold mb-6">Launch</h3>
           <ul className="space-y-3 text-2xl text-gray-600 list-disc list-outside pl-6">
-            <li>MVP live <em>this</em> week<br></br>&nbsp; &gt; tuition.fyi</li>
-            <li>Top 50 schools <br></br>pre-populated</li>
+            <li><strong>MVP is live now</strong> &mdash; <span className="text-[#cc0000] font-bold">tuition.fyi</span></li>
+            <li>Top 50 schools pre-populated</li>
             <li>Launch at UNL</li>
           </ul>
         </div>
