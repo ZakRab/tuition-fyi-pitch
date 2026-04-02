@@ -11,13 +11,13 @@ export default function Competition() {
           { name: "WhatsApp / Reddit", gap: "Unstructured, unverified" },
         ].map((c, i) => (
           <div key={i} className="flex items-center justify-between py-4 border-b border-gray-100">
-            <p className="font-bold text-3xl">{c.name}</p>
-            <p className="text-2xl text-[#cc0000] font-semibold">{c.gap}</p>
+            <p className="font-bold text-4xl">{c.name}</p>
+            <p className="text-3xl text-[#cc0000] font-semibold">{c.gap}</p>
           </div>
         ))}
       </div>
 
-      <p className="mt-12 text-3xl text-center font-semibold">
+      <p className="mt-12 text-4xl text-center font-semibold">
         Nobody does verified cost data for international students.
       </p>
     </div>
