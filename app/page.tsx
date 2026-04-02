@@ -16,10 +16,12 @@ import MarketSize from "@/slides/07c-MarketSize";
 import Competition from "@/slides/08-Competition";
 import Team from "@/slides/09-Team";
 import StartupStudio from "@/slides/10-StartupStudio";
+import Risks from "@/slides/10b-Risks";
 import Roadmap from "@/slides/11-Roadmap";
 import Close from "@/slides/12-Close";
 import AppendixPrivacy from "@/slides/13-Appendix-Privacy";
 import AppendixSite from "@/slides/14-Appendix-Site";
+import AppendixFeatures from "@/slides/15-Appendix-Features";
 
 const slides = [
   <Title key="title" />,
@@ -36,12 +38,14 @@ const slides = [
   <Competition key="competition" />,
   <Team key="team" />,
   <StartupStudio key="studio" />,
+  <Risks key="risks" />,
   <Roadmap key="roadmap" />,
   <Close key="close" />,
   <AppendixPrivacy key="appendix-privacy" />,
   <AppendixSite key="appendix-site" />,
+  <AppendixFeatures key="appendix-features" />,
 ];
 
 export default function Home() {
-  return <SlideEngine slides={slides} noClickNav={[14]} />;
+  return <SlideEngine slides={slides} noClickNav={[18]} />;
 }
