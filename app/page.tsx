@@ -5,7 +5,6 @@ const SlideEngine = dynamic(() => import("@/components/SlideEngine"), { ssr: fal
 import Title from "@/slides/00-Title";
 import KaiStory from "@/slides/01-KaiStory";
 import Pattern from "@/slides/02-Pattern";
-import InternationalStudents from "@/slides/07b-InternationalStudents";
 import WhyThisExists from "@/slides/03-WhyThisExists";
 import EnrollmentCliff from "@/slides/07a-EnrollmentCliff";
 import Solution from "@/slides/04-Solution";
@@ -26,7 +25,6 @@ const slides = [
   <Title key="title" />,
   <KaiStory key="kai" />,
   <Pattern key="pattern" />,
-  <InternationalStudents key="international-students" />,
   <WhyThisExists key="why" />,
   <EnrollmentCliff key="enrollment-cliff" />,
   <Solution key="solution" />,
@@ -45,5 +43,5 @@ const slides = [
 ];
 
 export default function Home() {
-  return <SlideEngine slides={slides} noClickNav={[7]} />;
+  return <SlideEngine slides={slides} noClickNav={[6]} />;
 }
