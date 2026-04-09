@@ -1,16 +1,16 @@
 export default function Risks() {
   const risks = [
     {
-      risk: "Selling across borders",
-      response: "Tight-knit international student relations will help dramatically",
+      risk: "Cold-start: not enough seed data",
+      response: "Pre-populate top 50 schools ourselves, partner with 2–3 anchor universities to push their own students to contribute on day one.",
     },
     {
-      risk: "Political & visa uncertainty",
-      response: "Even with temporary uncertainty in the industry, there is more than enough market to target as a startup",
+      risk: "Declining international enrollment",
+      response: "That decline is exactly why schools will pay us — they need cheaper, more efficient ways to recruit. The pain creates the budget.",
     },
     {
-      risk: "Starter data accumulation",
-      response: "Lots of time will be spent on outreach and pre-population of data",
+      risk: "Long enterprise sales cycles",
+      response: "Bottom-up: students use the free product, generate inbound interest from admissions offices. Land-and-expand from there.",
     },
   ];
 
