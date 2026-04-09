@@ -13,9 +13,9 @@ export default function Title() {
         <span className="text-gray-300">&</span>
         <span>Joey Shea</span>
       </div>
-      <p className="mt-10 text-3xl text-gray-500">
+      {/* <p className="mt-10 text-3xl text-gray-500">
         UNL Raikes School &middot; Startup Studio 2026
-      </p>
+      </p> */}
     </div>
   );
 }

@@ -8,7 +8,7 @@ export default function HowItWorks() {
           { n: "1", title: "Student uploads financial documents", sub: "Consolidated bill, 1098-T, or financial aid letter. AI extracts the numbers." },
           { n: "2", title: "They get a personalized report", sub: "ROI analysis, cost rankings by school/major/country, scholarship discovery." },
           { n: "3", title: "They share access tokens", sub: "Pass tokens to siblings, neighbors, family friends back home." },
-          { n: "4", title: "Schools sponsor & incentivize uploads", sub: "Partner universities push their own students to contribute. The database grows on the schools’ dime." },
+          { n: "4", title: "Schools sponsor & incentivize uploads", sub: "Partner universities encourage their own students to contribute. The database grows on the schools’ dime." },
         ].map((step) => (
           <div key={step.n} className="flex items-center gap-8">
             <div className={`w-16 h-16 rounded-full ${step.n === "4" ? "bg-[#1a1a1a]" : "bg-[#cc0000]"} text-white flex items-center justify-center font-bold text-3xl shrink-0`}>

@@ -18,7 +18,7 @@ export default function WhyThisExists() {
         <div className="bg-red-50 rounded-2xl p-8 border-2 border-[#cc0000]/20">
           <p className="text-2xl text-[#cc0000] uppercase font-semibold tracking-wider mb-4">Schools</p>
           <ul className="text-2xl text-gray-700 space-y-4 list-disc pl-5">
-            <li>International enrollment is <span className="font-semibold">declining</span> — schools are scrambling for qualified applicants</li>
+            <li>Domestic enrollment is <span className="font-semibold">declining</span> — schools are scrambling for qualified applicants</li>
             <li>Can&rsquo;t prove their <span className="font-semibold">real cost-competitiveness</span> against peers</li>
             <li>Lose price-sensitive students they would&rsquo;ve actually been affordable for</li>
             <li>Pay agencies thousands per enrolled student with <span className="font-semibold">no transparency</span></li>

@@ -2,10 +2,10 @@ export default function Risks() {
   const risks = [
     {
       risk: "Cold-start: not enough seed data",
-      response: "Pre-populate top 50 schools ourselves, partner with 2–3 anchor universities to push their own students to contribute on day one.",
+      response: "Pre-populate top 50 schools ourselves, partner with 2–3 anchor universities to encourage their own students to contribute on day one.",
     },
     {
-      risk: "Declining international enrollment",
+      risk: "Recent international enrollment dip",
       response: "That decline is exactly why schools will pay us — they need cheaper, more efficient ways to recruit. The pain creates the budget.",
     },
     {

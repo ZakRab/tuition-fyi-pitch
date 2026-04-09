@@ -23,9 +23,9 @@ export default function KaiStory() {
           </p>
 
           <p className="text-3xl leading-snug text-gray-800 mt-5">
-            So he pays a consultant <span className="text-[#cc0000] font-bold">$2,000</span> for advice he can&rsquo;t verify.
+            So he pays a consultant <span className="text-[#cc0000] font-bold">$2,000</span> &nbsp;for advice he can&rsquo;t verify.
             Add fees and months of his time and he&rsquo;s out{" "}
-            <span className="text-[#cc0000] font-bold">~$3,000</span> before he&rsquo;s even applied.
+            <span className="text-[#cc0000] font-bold">~$3,000</span> &nbsp;before he&rsquo;s even applied.
           </p>
 
           <p className="text-3xl leading-snug text-gray-800 mt-5">

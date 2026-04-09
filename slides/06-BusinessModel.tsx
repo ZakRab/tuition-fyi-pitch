@@ -44,7 +44,7 @@ export default function BusinessModel() {
       </div>
 
       <p className="text-2xl text-center text-gray-600 mt-8">
-        Schools become the data engine — they have <span className="font-semibold">every reason</span> to push students to contribute. We&rsquo;re Glassdoor for tuition; <span className="font-semibold">they</span> are the employers.
+        Schools become the data engine — they have <span className="font-semibold">every reason</span> to encourage students to contribute. We&rsquo;re Glassdoor for tuition; <span className="font-semibold">they</span> are the employers.
       </p>
     </div>
   );
