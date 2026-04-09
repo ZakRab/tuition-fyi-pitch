@@ -9,7 +9,6 @@ import WhyThisExists from "@/slides/03-WhyThisExists";
 import EnrollmentCliff from "@/slides/07a-EnrollmentCliff";
 import Solution from "@/slides/04-Solution";
 import AppendixSite from "@/slides/14-Appendix-Site";
-import HowItWorks from "@/slides/05-HowItWorks";
 import BusinessModel from "@/slides/06-BusinessModel";
 import MarketSize from "@/slides/07c-MarketSize";
 import Competition from "@/slides/08-Competition";
@@ -29,7 +28,6 @@ const slides = [
   <EnrollmentCliff key="enrollment-cliff" />,
   <Solution key="solution" />,
   <AppendixSite key="demo" />,
-  <HowItWorks key="how" />,
   <BusinessModel key="biz" />,
   <MarketSize key="market-size" />,
   <Competition key="competition" />,

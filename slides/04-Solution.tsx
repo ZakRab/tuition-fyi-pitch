@@ -13,7 +13,6 @@ export default function Solution() {
       <ul className="text-4xl text-gray-500 space-y-4 text-left max-w-3xl mx-auto list-disc list-inside">
         <li>Verified. Not sponsored.</li>
         <li>Anonymized. No one sees your name.</li>
-        <li>Free for every student. Schools pay to recruit on it.</li>
       </ul>
     </div>
   );
