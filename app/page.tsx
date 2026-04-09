@@ -4,8 +4,8 @@ import dynamic from "next/dynamic";
 const SlideEngine = dynamic(() => import("@/components/SlideEngine"), { ssr: false });
 import Title from "@/slides/00-Title";
 import KaiStory from "@/slides/01-KaiStory";
-import InternationalStudents from "@/slides/07b-InternationalStudents";
 import Pattern from "@/slides/02-Pattern";
+import InternationalStudents from "@/slides/07b-InternationalStudents";
 import WhyThisExists from "@/slides/03-WhyThisExists";
 import EnrollmentCliff from "@/slides/07a-EnrollmentCliff";
 import Solution from "@/slides/04-Solution";
@@ -15,7 +15,6 @@ import BusinessModel from "@/slides/06-BusinessModel";
 import MarketSize from "@/slides/07c-MarketSize";
 import Competition from "@/slides/08-Competition";
 import Team from "@/slides/09-Team";
-import StartupStudio from "@/slides/10-StartupStudio";
 import Risks from "@/slides/10b-Risks";
 import Expansion from "@/slides/10c-Expansion";
 import Roadmap from "@/slides/11-Roadmap";
@@ -26,8 +25,8 @@ import AppendixFeatures from "@/slides/15-Appendix-Features";
 const slides = [
   <Title key="title" />,
   <KaiStory key="kai" />,
-  <InternationalStudents key="international-students" />,
   <Pattern key="pattern" />,
+  <InternationalStudents key="international-students" />,
   <WhyThisExists key="why" />,
   <EnrollmentCliff key="enrollment-cliff" />,
   <Solution key="solution" />,
@@ -37,7 +36,6 @@ const slides = [
   <MarketSize key="market-size" />,
   <Competition key="competition" />,
   <Team key="team" />,
-  <StartupStudio key="studio" />,
   <Risks key="risks" />,
   <Expansion key="expansion" />,
   <Roadmap key="roadmap" />,
