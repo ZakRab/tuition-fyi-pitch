@@ -1,19 +1,19 @@
 export default function UseOfFunds() {
   const items = [
     {
-      label: "Platform upkeep",
-      description: "Hosting and infrastructure",
-      pct: 40,
+      label: "Early marketing",
+      description: "Student outreach",
+      pct: 85,
     },
     {
       label: "AI costs",
       description: "Automated document parsing",
-      pct: 35,
+      pct: 10,
     },
     {
-      label: "Early marketing",
-      description: "Student outreach",
-      pct: 25,
+      label: "Platform upkeep",
+      description: "Hosting and infrastructure",
+      pct: 5,
     },
   ];
 
