@@ -13,6 +13,7 @@ import BusinessModel from "@/slides/06-BusinessModel";
 import MarketSize from "@/slides/07c-MarketSize";
 import Competition from "@/slides/08-Competition";
 import Team from "@/slides/09-Team";
+import UseOfFunds from "@/slides/09b-UseOfFunds";
 import Risks from "@/slides/10b-Risks";
 import Expansion from "@/slides/10c-Expansion";
 import Roadmap from "@/slides/11-Roadmap";
@@ -32,6 +33,7 @@ const slides = [
   <MarketSize key="market-size" />,
   <Competition key="competition" />,
   <Team key="team" />,
+  <UseOfFunds key="use-of-funds" />,
   <Risks key="risks" />,
   <Expansion key="expansion" />,
   <Roadmap key="roadmap" />,
