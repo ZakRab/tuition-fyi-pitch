@@ -15,10 +15,12 @@ export default function Team() {
             </div>
             <ul className="space-y-3 text-3xl text-gray-600">
               <li>Raikes School, CS & Business</li>
-              <li>SWE Intern @ Microsoft, Hudl</li>
               <li>5 startups in college</li>
-              <li>Led all 10 customer interviews</li>
             </ul>
+            <div className="flex items-center gap-6 mt-6">
+              <img src="/microsoft.png" alt="Microsoft" className="h-12 object-contain" />
+              <img src="/hudl.png" alt="Hudl" className="h-12 object-contain" />
+            </div>
           </div>
 
           <div>
@@ -31,10 +33,13 @@ export default function Team() {
             </div>
             <ul className="space-y-3 text-3xl text-gray-600">
               <li>Raikes School, CS & Data Science</li>
-              <li>SWE Intern @ Hudl, Virtual Incision</li>
-              <li>Incoming @ Garmin</li>
               <li>Full-stack, Data Science, UI/UX</li>
             </ul>
+            <div className="flex items-center gap-6 mt-6">
+              <img src="/hudl.png" alt="Hudl" className="h-12 object-contain" />
+              <img src="/virtual-incision.png" alt="Virtual Incision" className="h-12 object-contain" />
+              <img src="/Garmin-logo.png" alt="Garmin" className="h-12 object-contain" />
+            </div>
           </div>
         </div>
       </div>
