@@ -2,7 +2,6 @@ export default function WhyThisExists() {
   return (
     <div className="w-full max-w-6xl mx-auto px-16">
       <h2 className="text-6xl font-bold mb-3">Both sides are losing.</h2>
-      <p className="text-2xl text-gray-500 mb-10">Cost opacity isn&rsquo;t just a student problem — it&rsquo;s a recruitment problem.</p>
 
       <div className="grid grid-cols-2 gap-10">
         <div className="bg-gray-50 rounded-2xl p-8">
@@ -25,10 +24,6 @@ export default function WhyThisExists() {
           </ul>
         </div>
       </div>
-
-      <p className="text-3xl text-center mt-10 text-gray-700">
-        The market is screaming for a neutral, verified source of cost truth. <span className="font-bold">Nobody has built it.</span>
-      </p>
     </div>
   );
 }

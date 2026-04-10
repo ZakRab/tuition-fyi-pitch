@@ -33,7 +33,7 @@ export default function Team() {
             </div>
             <ul className="space-y-3 text-3xl text-gray-600">
               <li>Raikes School, CS & Data Science</li>
-              <li>Full-stack, Data Science, UI/UX</li>
+              <li>Full-stack, UI/UX</li>
             </ul>
             <div className="flex items-center gap-6 mt-6">
               <img src="/hudl.png" alt="Hudl" className="h-12 object-contain" />

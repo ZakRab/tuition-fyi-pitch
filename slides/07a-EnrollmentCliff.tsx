@@ -4,16 +4,14 @@ export default function EnrollmentCliff() {
       <h2 className="text-5xl font-bold mb-2 text-center">
         Schools need international students more than ever.
       </h2>
-      <p className="text-xl text-gray-500 text-center mb-6">
-        Domestic enrollment is collapsing. International enrollment is climbing.
-      </p>
+
 
       <div className="flex-1 grid grid-cols-2 gap-8 min-h-0">
         <div className="flex flex-col min-h-0">
-          <p className="text-base font-semibold text-[#cc0000] uppercase tracking-wider text-center mb-2">
+          <p className="text-xl font-semibold text-[#cc0000] uppercase tracking-wider text-center mt-10 mb-0">
             The Enrollment Cliff
           </p>
-          <div className="flex-1 flex items-center justify-center min-h-0">
+          <div className="flex-1 flex items-center justify-center min-h-0 pt-2">
             <img
               src="/enrollment-cliff.webp"
               alt="Enrollment cliff chart"
@@ -24,10 +22,10 @@ export default function EnrollmentCliff() {
         </div>
 
         <div className="flex flex-col min-h-0">
-          <p className="text-base font-semibold text-[#cc0000] uppercase tracking-wider text-center mb-2">
+          <p className="text-xl font-semibold text-[#cc0000] uppercase tracking-wider text-center mt-10 mb-0">
             International Students in the U.S.
           </p>
-          <div className="flex-1 flex items-center justify-center min-h-0">
+          <div className="flex-1 flex items-center justify-center min-h-0 pt-2">
             <img
               src="/international_students.png"
               alt="International students chart"
